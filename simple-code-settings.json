@@ -1,0 +1,113 @@
+{
+	"workbench.settings.editor": "json",
+	"workbench.settings.useSplitJSON": false,
+	"workbench.settings.openDefaultSettings": false,
+	"workbench.enableExperiments": false,
+	"workbench.tips.enabled": false,
+	"workbench.welcomePage.experimental.startEntries": "hidden",
+	"workbench.startupEditor": "none",
+
+	"telemetry.telemetryLevel": "off",
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
+
+	"debug.enabled": false,
+	"testing.enabled": false,
+	"notebook.enabled": false,
+	"timeline.enabled": false,
+	"merge-conflict.enabled": false,
+	"performance.enabled": false,
+	"surveys.enabled": false,
+	"userDataSync.enabled": false,
+	"remote.enabled": false,
+	"tasks.enabled": false,
+
+	"scm.enabled": true,
+	"chat.enabled": true,
+	"extensions.enabled": true,
+	"terminal.enabled": true,
+	"search.enabled": true,
+	"explorer.enabled": true,
+	"editor.enabled": true,
+
+	"workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+	"workbench.sideBar.location": "left",
+	"workbench.panel.defaultLocation": "bottom",
+	"workbench.editor.showTabs": true,
+	"workbench.editor.tabCloseButton": "right",
+	"workbench.editor.tabSizing": "fit",
+
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.iconTheme": "vs-seti",
+
+	"extensions.autoUpdate": true,
+	"extensions.autoCheckUpdates": true,
+	"extensions.ignoreRecommendations": false,
+
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": true
+	},
+
+	"chat.editor.wordWrap": "on",
+	"chat.experimental.detectParticipant": "auto",
+
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+
+	"editor.fontSize": 14,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+	"editor.minimap.enabled": true,
+	"editor.lineNumbers": "on",
+	"editor.wordWrap": "off",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": true,
+	"editor.renderWhitespace": "selection",
+	"editor.renderControlCharacters": false,
+	"editor.rulers": [],
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+
+	"explorer.confirmDelete": true,
+	"explorer.confirmDragAndDrop": true,
+	"explorer.openEditors.visible": 1,
+
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true
+	},
+
+	"scm.diffDecorations": "all",
+	"scm.alwaysShowProviders": false,
+	"scm.alwaysShowRepositories": false,
+
+	"typescript.updateImportsOnFileMove.enabled": "prompt",
+	"javascript.updateImportsOnFileMove.enabled": "prompt",
+	"python.defaultInterpreterPath": "python",
+
+	"keyboard.dispatch": "keyCode",
+
+	"security.workspace.trust.enabled": true,
+	"security.workspace.trust.startupPrompt": "once",
+	"security.workspace.trust.banner": "untrusted",
+	"security.workspace.trust.emptyWindow": true
+}
